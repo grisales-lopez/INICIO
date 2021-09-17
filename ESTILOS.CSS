@@ -1,0 +1,341 @@
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Manrope", sans-serif;
+}
+body{
+  font-family: 'Manrope', sans-serif;
+  overflow: hidden;
+  overflow-y: scroll;
+  background: #fcfcfc;
+  position: relative;
+height: 100%;
+scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px white;
+        border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #eaeaea;
+    border-radius: 10px;
+}
+input[type="file"]{
+  display: none;
+}
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="search"]{
+  outline: none;
+  border-radius: 10px;
+  border: none;
+  width: 80%;
+  height: 40px;
+  background: #F6F6F6;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.SX01-INICIO-CLIENTE{
+  width: 80%;
+  margin: auto;
+
+}
+.DS01F-DX01-SX01-INICIO-CLIENTE{
+  height: 100px;
+  display: flex;
+  border-bottom: 1px solid #E8E6FF;
+align-items: center;
+  padding-left: 10px;
+  font-weight: 400;
+}
+.DS01F-DX01-SX01-INICIO-CLIENTE h2{
+}
+.DS01F-DX01-SX01-INICIO-CLIENTE span{
+  font-size: 16px;
+  color: #868686;
+}
+.DC01F-DS01F-DX01-SX01-INICIO-CLIENTE{
+  margin-left: auto;
+}
+.DC01F-DS01F-DX01-SX01-INICIO-CLIENTE button{
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: white;
+  color: ;
+  font-size: 14px;
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 500ms;
+  /* box-shadow: 0px 4px 18px #d4d4d4; */
+}
+.DC01F-DS01F-DX01-SX01-INICIO-CLIENTE button:hover{
+border-bottom: 1px solid #E8E6FF;
+}
+.DX01-SX01-INICIO-CLIENTE{
+  height: 500PX;
+  width: 100%;
+  margin:auto;
+  background: black;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.DX02-SX01-INICIO-CLIENTE{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+
+}
+.DS01-DX02-SX01-INICIO-CLIENTE{
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+  /* border: 1px solid #E9E7FF; */
+  cursor: pointer;
+  background: white;
+  position: relative;
+  padding: 10px;
+  transition: all 500ms;
+  cursor: pointer;
+    box-shadow: 0 2px 18px 0 rgba(0,0,0,0.04);
+
+}
+.DS01-DX02-SX01-INICIO-CLIENTE:hover{
+ transform: translateY(-10px);
+}
+.DC01-DS01-DX02-SX01-INICIO-CLIENTE img{
+  width: 100%;
+}
+.DS01-DS01-DX02-SX01-INICIO-CLIENTE{
+    position: relative;
+
+}
+.DC01-DS01-DX02-SX01-INICIO-CLIENTE::before{
+  content: "Nuevo";
+  position: absolute;
+  background: #FFF0E7;
+  color: #FF7600;
+  font-weight: 700;
+  padding: 4px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.DC02-DS01-DS01-DX02-SX01-INICIO-CLIENTE{
+  width: 100px;
+  display: flex;
+  margin-left: auto;
+}
+.DC02-DS01-DS01-DX02-SX01-INICIO-CLIENTE img{
+  width: 100%;
+}
+.DC01-DS01-DS01-DX02-SX01-INICIO-CLIENTE{
+  font-weight: 500;
+}
+
+
+
+.DX03-SX01-INICIO-CLIENTE{
+  margin-top: 20px;
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+
+  box-shadow: 0 2px 18px 0 rgba(0,0,0,0.04);
+
+
+
+}
+.DS01F-DX03-SX01-INICIO-CLIENTE{
+  width: 100%;
+  /* border: 1px solid #E9E7FF; */
+  /* box-shadow: 0px 16px 25px #d4d4d4; */
+  padding: 10px;
+  background: white;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 500ms;
+}
+.DS01F-DX03-SX01-INICIO-CLIENTE:nth-child(2),
+.DS01F-DX03-SX01-INICIO-CLIENTE:nth-child(3){
+  border-left: 1px solid #d4d4d4;;
+}
+.DS01F-DX03-SX01-INICIO-CLIENTE:hover{
+ transform: translateY(-10px);
+}
+.DC01-DS01F-DX03-SX01-INICIO-CLIENTE{
+  width: 100%;
+}
+.DC01-DS01F-DX03-SX01-INICIO-CLIENTE img{
+  width: 100%;
+
+}
+.DC01-DS01F-DX03-SX01-INICIO-CLIENTE::before{
+  content: "Promocion";
+  position: absolute;
+  background: #E0FFE5;
+  color: #059113;
+  font-weight: 700;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+.DS01-DS01F-DX03-SX01-INICIO-CLIENTE{
+transform: translateY(-10px);
+}
+.DC01-DS01-DS01-DS01F-DX03-SX01-INICIO-CLIENTE{
+ color: #FF9900;
+ font-weight: 700;
+}
+.DC01-DS01-DS01F-DX03-SX01-INICIO-CLIENTE{
+  font-weight: 700;
+}
+.DC03-DS01-DS01F-DX03-SX01-INICIO-CLIENTE{
+  display: flex;
+  width: 100px;
+  margin-left: auto;
+}
+.DC03-DS01-DS01F-DX03-SX01-INICIO-CLIENTE img{
+  width: 100%;
+}
+.DS01-DS01-DS01F-DX03-SX01-INICIO-CLIENTE{
+  display: flex;
+  align-items: center;
+}
+
+
+.DX03-SX01-INICIO-CLIENTEf{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background: white;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: #F9F9F9;
+
+}
+
+
+
+
+.BUSCADOR-TIENDA{
+ display: flex;
+ align-items: center;
+ height: 25px;
+ width: 600px;
+ border-radius: 10px;
+ border-radius: 100px;
+ padding: 10px;
+ background: #F6F6F6;
+ justify-content: space-around;
+ margin-top: 20px;
+}
+.UL01-NA02-CLIENTE svg{
+ cursor: pointer;
+ padding: 10px;
+ border-radius: 5px;
+ height: 24px;
+ width: 24px;
+}
+.UL01-NA02-CLIENTE svg:hover{
+ cursor: pointer;
+ background: #FFEDD2;
+ fill: orange
+}
+.DC01-BUSCADOR-TIENDA{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ width: 100px;
+}
+.DC01-BUSCADOR-TIENDA svg{
+ cursor: pointer;
+}
+.UL01-NA02-CLIENTE{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ width: 30%;
+ margin-left: auto;
+}
+.SV01-BUSCADOR-TIENDA{
+ margin-left: 10px;
+}
+
+
+
+
+
+.DS02-DX04-SX01-INICIO-CLIENTE{
+  padding: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+  height: 400px;
+  overflow-Y: scroll;
+  margin-bottom: 50PX;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+
+}
+.DC01-DS02-DX04-SX01-INICIO-CLIENTE{
+  width: 167PX;
+  height: 60px;
+  /* border: 1px solid #E9E7FF; */
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 500ms;
+background: white;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+box-shadow:   0 2px 18px 0 rgba(0,0,0,0.04);
+
+}
+.DC01-DS02-DX04-SX01-INICIO-CLIENTE:hover{
+  transform: translateY(-6px);
+}
+.DC01-DS02-DX04-SX01-INICIO-CLIENTE img{
+  width: 80%;
+  margin: auto;
+}
+
+
+.DX01{
+  display: flex;
+}
+.DX01 div{
+width: 100%;
+height: 300px;
+background: red;
+border-left: 1px solid orange
+}
